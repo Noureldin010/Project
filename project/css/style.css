@@ -1,0 +1,161 @@
+header{
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    display: inline-block;
+}
+.flex{
+    display: flex;
+}
+.col{
+    width: 100%;
+    margin-right: 1%;
+}
+html,body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.buy_now{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    transition:transform 0.5s ;
+
+}
+
+.buy_now:hover{
+    background-color: #f81f01;
+    border: 1px solid #f81f01;
+    transform: translateY(-10px);
+}
+.right{
+    text-align: right;
+}
+.hero{
+    background-color: black;
+    height: 100vh;
+    text-align: center;
+    padding-top: 150px;
+}
+h1{
+    color:#f81f01;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+.hero p{
+    color:#ddd;
+    font-size: 30px;
+    width: 50%;
+    margin: 10px auto;
+}
+.hero a{
+    color:#ddd;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-top: 30px;
+    transition:transform 0.5s ;
+}
+
+.hero a:hover{
+    background-color: #f81f01;
+    border: 1px solid #f81f01;
+    transform: translateY(-10px);
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.col3{
+    width: 31%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.features .col3{
+    background-color: #f6f6f6;
+    transition:transform 0.5s ;
+    border-radius: 5px;
+}
+.features h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+.features p{
+    font-size: 18px;
+    color: #777;
+}
+.features i{
+    font-size: 50px;
+    color:#f81f01;
+    padding: 20px;
+}
+.features .col3:hover{
+    background: rgb(248,31,1);
+    background: linear-gradient(102deg, rgba(248,31,1,1) 0%, rgba(110,1,94,1) 100%);
+    transform: translateY(-10px);
+
+}
+
+.features .col3:hover h3,
+.features .col3:hover p,
+.features .col3:hover i
+{
+    color:white;
+}
+.card{
+    position: relative;
+}
+.card .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #00000052;
+   color:white;
+   padding: 50% 20px 20px;
+   box-sizing: border-box;
+}
+.portfolio h2{
+    font-size: 50px;
+}
+.card .content h3{
+    font-size: 30px;
+}
+
+.card .content a{
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 20px 50px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.card:hover .content{
+    background: linear-gradient(102deg, rgba(248,31,1,0.7) 0%, rgba(110,1,94,1) 100%);
+}
